@@ -12,6 +12,6 @@ function dispayData(destinationDetails){
    
     result.innerHTML=`<p style="font-size:20px;color:white"><span style=" font-family: inherit;font-weight: bold;font-size: 35px;">${Destination}</span>
     <span>-${description}</span></P>
-    <img src="${weather}" class="card-img-top" style="height:700px;width:550px;border:10px solid black" alt="...">`
+    <img src="${weather}" class="card-img-top" style="border:10px solid black;width:50%" alt="...">`
    
 }
